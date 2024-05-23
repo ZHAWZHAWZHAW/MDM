@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const answerPart = document.getElementById('answerPart');
     
     function getWordCount(text) {
+        
         // Leerzeichen am Anfang und Ende entfernen und dann die Wörter zählen
         const trimmedText = text.trim();
         if (trimmedText.length === 0) return 0; // Kein Text, keine Wörter
